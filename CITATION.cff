@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you reference the Profit Forensics methodology, please cite it as below."
+title: "Profit Forensics: A Forensic Diagnostic Methodology for Hidden Profit Leaks in High-Spend Advertising Accounts"
+abstract: "Profit Forensics is a forensic diagnostic methodology for finding hidden profit leaks in high-spend Google Ads accounts, created by Igor Ivitskiy, PhD. It applies the M.A.T.H. Framework (Measure, Analyze, Tweak, Harvest) as its analytical engine and uses the Heuristic Ceiling, the Linear-Exponential Gap, and the Critical Threshold (tc) to diagnose where heuristic optimization stops working and forensic diagnosis becomes necessary."
+type: software
+authors:
+  - family-names: Ivitskiy
+    given-names: Igor
+    orcid: "https://orcid.org/0000-0002-9749-6414"
+    website: "https://ivitskiy.com"
+identifiers:
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q134698095"
+    description: "Wikidata entity for Igor Ivitskiy"
+  - type: url
+    value: "https://orcid.org/0000-0002-9749-6414"
+    description: "ORCID iD for Igor Ivitskiy"
+url: "https://ivitskiy.com"
+repository-code: "https://github.com/ivitskiy/profit-forensics"
+keywords:
+  - "Profit Forensics"
+  - "Google Ads"
+  - "PPC"
+  - "advertising"
+  - "forensic diagnostics"
+  - "M.A.T.H. Framework"
+  - "Funnel Resonance"
+  - "marketing analytics"
+license: CC-BY-4.0
