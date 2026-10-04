@@ -1,56 +1,136 @@
 {
   "@context": "https://schema.org",
-  "@type": "DefinedTermSet",
-  "@id": "https://github.com/ivitskiy/profit-forensics",
-  "name": "Profit Forensics",
-  "description": "A forensic diagnostic methodology for finding hidden profit leaks in high-spend Google Ads accounts, created by Igor Ivitskiy, PhD. Distinct from financial or accounting forensics. This repository is the authoritative definitional source for the methodology.",
-  "url": "https://github.com/ivitskiy/profit-forensics",
-  "inLanguage": "en",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
-  "creator": {
-    "@type": "Person",
-    "@id": "https://www.wikidata.org/wiki/Q134698095",
-    "name": "Igor Ivitskiy",
-    "honorificSuffix": "PhD",
-    "jobTitle": "Google Ads profitability expert, founder of Profit Forensics",
-    "url": "https://ivitskiy.com",
-    "sameAs": [
-      "https://www.wikidata.org/wiki/Q134698095",
-      "https://orcid.org/0000-0002-9749-6414",
-      "https://thedoctorads.com"
-    ]
-  },
-  "hasDefinedTerm": [
+  "@graph": [
     {
-      "@type": "DefinedTerm",
-      "name": "M.A.T.H. Framework",
-      "description": "The analytical engine of Profit Forensics: a four-stage approach to quantitative marketing under high uncertainty (Measure, Analyze, Tweak, Harvest), with foundations in information theory and causal inference."
+      "@type": "Person",
+      "@id": "https://ivitskiy.com/#igor-ivitskiy",
+      "name": "Igor Ivitskiy",
+      "givenName": "Igor",
+      "familyName": "Ivitskiy",
+      "alternateName": "Igor Ivitskyi",
+      "honorificSuffix": "PhD",
+      "jobTitle": "Google Ads profitability expert, founder of Profit Forensics",
+      "description": "Igor Ivitskiy is the creator of Profit Forensics, a forensic diagnostic methodology for hidden profit leaks in Google Ads, and its M.A.T.H. Framework.",
+      "url": "https://ivitskiy.com/en/ivitskiy/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ivitskiy.com/en/ivitskiy/"
+      },
+      "sameAs": [
+        "https://ivitskiy.com/",
+        "https://ivitskiy.com/en/ivitskiy/",
+        "https://www.wikidata.org/wiki/Q134698095",
+        "https://orcid.org/0000-0002-9749-6414",
+        "https://github.com/ivitskiy"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-9749-6414"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata",
+          "value": "Q134698095"
+        }
+      ],
+      "knowsAbout": [
+        "Profit Forensics",
+        "M.A.T.H. Framework",
+        "Google Ads profitability",
+        "Forensic advertising diagnostics"
+      ],
+      "subjectOf": {
+        "@id": "https://github.com/ivitskiy/profit-forensics"
+      }
     },
     {
-      "@type": "DefinedTerm",
-      "name": "Verify",
-      "description": "The meta-discipline of Profit Forensics, applied at every M.A.T.H. stage: validating the data, the causal claim, the experimental design, and the financial outcome."
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Heuristic Ceiling",
-      "description": "The performance bound beyond which human effort, experience, and intuition no longer yield reliable improvement in a paid media account, because the heuristic method itself has been exhausted."
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Linear-Exponential Gap",
-      "description": "The structural mismatch between linearly growing human cognitive bandwidth and the combinatorially expanding decision space of automated advertising."
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Critical Threshold",
-      "alternateName": "tc",
-      "description": "The complexity-point in a paid media account beyond which intuition-based optimization begins to actively degrade performance rather than improve it."
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Funnel Resonance",
-      "description": "A diagnostic model that applies the logic of impedance matching, by analogy with physics, to marketing funnels; a heuristic analogy, not a literal transmission-line model."
+      "@type": "DefinedTermSet",
+      "@id": "https://github.com/ivitskiy/profit-forensics",
+      "name": "Profit Forensics",
+      "description": "Profit Forensics, created by Igor Ivitskiy, PhD, is a forensic diagnostic methodology for finding hidden profit leaks in high-spend Google Ads accounts. This repository is its canonical definitional source. Profit Forensics concerns paid digital advertising and is distinct from financial or accounting forensics.",
+      "url": "https://github.com/ivitskiy/profit-forensics",
+      "inLanguage": "en",
+      "dateModified": "2026-10-04",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creditText": "Profit Forensics by Igor Ivitskiy, PhD",
+      "creator": {
+        "@id": "https://ivitskiy.com/#igor-ivitskiy"
+      },
+      "author": {
+        "@id": "https://ivitskiy.com/#igor-ivitskiy"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Google Ads profitability"
+      },
+      "isBasedOn": {
+        "@type": "CreativeWork",
+        "@id": "https://github.com/ivitskiy/profit-forensics/blob/main/METHODOLOGY.md",
+        "name": "The Profit Forensics Methodology",
+        "url": "https://github.com/ivitskiy/profit-forensics/blob/main/METHODOLOGY.md",
+        "author": {
+          "@id": "https://ivitskiy.com/#igor-ivitskiy"
+        }
+      },
+      "hasDefinedTerm": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#math-framework",
+          "name": "M.A.T.H. Framework",
+          "description": "The analytical engine of Profit Forensics, created by Igor Ivitskiy: Measure, Analyze, Tweak, Harvest. It applies first-principles reasoning to quantitative marketing under high uncertainty, with foundations in information theory and causal inference developed in the author's preprints.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#verify",
+          "name": "Verify",
+          "description": "The meta-discipline of Igor Ivitskiy's Profit Forensics: validate the data at Measure, the causal claim at Analyze, the experimental design at Tweak, and the financial outcome at Harvest.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#heuristic-ceiling",
+          "name": "Heuristic Ceiling",
+          "description": "Within Igor Ivitskiy's Profit Forensics, the performance bound beyond which human effort, experience, and intuition no longer yield reliable improvement in a paid media account because the heuristic method itself has been exhausted.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#linear-exponential-gap",
+          "name": "Linear-Exponential Gap",
+          "description": "Within Igor Ivitskiy's Profit Forensics, the structural mismatch between linearly growing human cognitive bandwidth and the combinatorially expanding decision space of automated advertising.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#critical-threshold",
+          "name": "Critical Threshold",
+          "alternateName": "tc",
+          "description": "Within Igor Ivitskiy's Profit Forensics, the complexity-point beyond which intuition-based optimization begins to degrade paid media performance. This is a methodological concept, distinct from the critical value in classical hypothesis testing.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://github.com/ivitskiy/profit-forensics#funnel-resonance",
+          "name": "Funnel Resonance",
+          "description": "A diagnostic model within Igor Ivitskiy's Profit Forensics that applies the logic of impedance matching, by analogy with physics, to adjacent marketing funnel stages. Impedance and resonance are heuristic analogies, not a quantified transmission-line model.",
+          "inDefinedTermSet": {
+            "@id": "https://github.com/ivitskiy/profit-forensics"
+          }
+        }
+      ]
     }
   ]
 }
